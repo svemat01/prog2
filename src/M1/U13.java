@@ -1,13 +1,18 @@
 package M1;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class U13 {
     public static void main(String[] args) {
-        ArrayList<Double> list = new ArrayList<Double>(Arrays.asList(2.0, 4.2, 7.4, 4.3, 5.8, 6.0));
+        ArrayList<Double> list = new ArrayList();
+        list.add(1.6);
+        list.add(3.6);
+        list.add(4.4);
+        list.add(7.3);
+        list.add(3.2);
+        list.add(9.4);
 
-        Double average = average(list);
+        double average = average(list);
 
         System.out.println("average = " + average);
     }
