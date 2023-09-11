@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="prog2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/prog2_jar</output-path>
+    <root id="archive" name="Diagnos.jar">
+      <element id="module-output" name="prog2" />
+    </root>
+  </artifact>
+</component>
